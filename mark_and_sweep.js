@@ -76,7 +76,6 @@ const mark = () => {
   }
 };
 
-// Traverse the heap and move all unmarked or unreachable objects to the free list.
 // Percorrendo o heap atualizando o estado do objetos e removendo todos os objetos não marcados ou não alcançáveis para liberar a memória
 const sweep = () => {
   // Atualizando o estado
